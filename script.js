@@ -79,6 +79,24 @@ class Movie extends Media {
     }
 }
 
+// CD CLASS extends Media
+class CD extends Media {
+    constructor(title, artist, songs) {
+        super(title);
+        this._artist = artist;
+        this._songs = songs;
+    }
+
+    // Getters
+    get artist() {
+        return this._artist;
+    }
+
+    get songs() {
+        return this._songs;
+    }
+}
+
 // Book Instance
 const historyOfEverything = new Book(
     'A Short History of Nearly Everything',
