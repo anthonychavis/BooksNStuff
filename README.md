@@ -9,8 +9,8 @@
 
 ## Introduction
 
-In this project I practiced using ES6 Classes.
-I may return to this to build out an interseting client-side site.
+In this project, I practiced using ES6 Classes.
+I may return to this to build out an interesting client-side site.
 
 ## Technologies
 
